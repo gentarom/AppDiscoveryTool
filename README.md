@@ -18,7 +18,7 @@ See "Aditional Info" section for more details about which domain controllers to 
 <br>
 <br>
 
-## Step 1: Acquire Data
+## Step 1: Enable Logging on the targetted Domain Controller
 ### 1. Open Command Prompt with Admin privilege. Run StartAppDiscovery.bat to enable logging.
 ```
 What does StartAppDiscovery.bat execute?
