@@ -1,13 +1,13 @@
 # Application Discovery Tool
 
 * Overview
-  * [About This tool](https://github.com/gentarom/AppDiscoveryTool#about-this-tool)
-  * [Pre-req](https://github.com/gentarom/AppDiscoveryTool#pre-req)
+  * [About This tool](https://github.com/gentarom/AppDiscoveryTool/blob/main/AppDiscoveryTool.md#about-this-tool)
+  * [Pre-req](https://github.com/gentarom/AppDiscoveryTool/blob/main/AppDiscoveryTool.md#pre-req)
 * Instructions
-  * [How To Run This Tool](https://github.com/gentarom/AppDiscoveryTool#step-0-select-target-domain-controller)
-  * [Sample Output](https://github/gentarom/AppDiscoveryTool)
+  * [How To Run This Tool](https://github.com/gentarom/AppDiscoveryTool/blob/main/HowToRunThisTool.md#how-to-run-this-tool)
+  * [Sample Output](https://github.com/gentarom/AppDiscoveryTool/blob/main/SampleOutput.md#sample-output)
 * References
-  * [FAQ/Additional Info](https://github.com/gentarom/AppDiscoveryTool#additional-info)
+  * [FAQ/Additional Info](https://github.com/gentarom/AppDiscoveryTool/blob/main/AppDiscoveryTool.md#additional-info)
 <br>
 <br>
 <br>
