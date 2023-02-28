@@ -1,16 +1,5 @@
 # Application Discovery Tool
 
-* Overview
-  * [About This tool](https://github.com/gentarom/AppDiscoveryTool#about-this-tool)
-  * [Pre-req](https://github.com/gentarom/AppDiscoveryTool#pre-req)
-* Instructions
-  * [How To Run This Tool](https://github.com/gentarom/AppDiscoveryTool#step-0-select-target-domain-controller)
-  * [Sample Output](https://github/gentarom/AppDiscoveryTool)
-* References
-  * [FAQ/Additional Info](https://github.com/gentarom/AppDiscoveryTool#additional-info)
-<br>
-<br>
-<br>
 
 ## About This Tool
 In Active Directory, authentications for domain users are processed by the domain controller. This tool will enable debug logs on the domain controller(s) to capture NTLM and Kerberos Authentications. We can then analyze the logs visually through Power BI to identify application servers that rely on your on-premises AD for authentication
