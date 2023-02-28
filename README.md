@@ -9,4 +9,5 @@
 * References
   * [FAQ/Additional Info](https://github.com/gentarom/AppDiscoveryTool/blob/main/FilesForThisGithubSite/AppDiscoveryTool.md#additional-info)
 
-Download as .zip - (https://github.com/gentarom/AppDiscoveryTool/archive/refs/tags/v2023Feb.zip)
+Download as .zip (Files located under Source\) 
+https://github.com/gentarom/AppDiscoveryTool/archive/refs/heads/main.zip
