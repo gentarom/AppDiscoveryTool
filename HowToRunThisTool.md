@@ -1,3 +1,5 @@
+# How To Run This Tool
+
 ## Step 0: Select target domain controller
 Select domain </span>controller(s) you wish to analyze. You will need to run the following instructions on each domain controllers you wish to analyze. 
 See "Aditional Info" section for more details about which domain controllers to select.
