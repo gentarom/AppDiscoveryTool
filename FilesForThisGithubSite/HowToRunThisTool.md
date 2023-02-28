@@ -26,14 +26,14 @@ What does StartAppDiscovery.bat execute?
 ### 3.	Run StopAppdiscovery.bat with admin privilege to stop logging and get data. 
 ```
 What does StopAppdiscovery.bat execute?
-1.	Create a folder named AppDiscovery on the desktop to export all data
+1. Create a folder named AppDiscovery on the desktop to export all data
  * md %userprofile%\desktop\AppDiscovery
  
-2.	Stop event log debugging and export it to the AppDiscovery folder
+2. Stop event log debugging and export it to the AppDiscovery folder
  * wevtutil sl "Microsoft-Windows-Kerberos-Key-Distribution-Center/Performance" /e:false /q
  * wevtutil epl Microsoft-Windows-Kerberos-Key-Distribution-Center/Performance %userprofile%\desktop\AppDiscovery\KDCPerf.evtx /overwrite
  
-3.	Disable netlogon logging and copy the files to the AppDiscovery folder 
+3. Disable netlogon logging and copy the files to the AppDiscovery folder 
  * copy %SYSTEMROOT%\Debug\netlogon.log %userprofile%\desktop\AppDiscovery\netlogon.log
  * copy %SYSTEMROOT%\Debug\netlogon.bak %userprofile%\desktop\AppDiscovery\netlogon.bak
  * nltest /dbflag:0x0
