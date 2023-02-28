@@ -50,7 +50,7 @@ What does StopAppdiscovery.bat execute?
  * reg delete HKLM\SOFTWARE\Policies\Microsoft\Netlogon\Parameters /v MaximumLogFileSize /f
 
 4. Get List of Domain Controllers
- * powershell -command "Get-ADDomainController -Filter * | Select-Object name | Export-Csv -Path .\ListOfDCs.csv"
+ * powershell -command "Get-ADDomainController -Filter * | Select-Object name | Export-Csv -Path %userprofile%\desktop\AppDiscovery\ListOfDCs.csv"
 
 ```
 <br>
