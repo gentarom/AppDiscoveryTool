@@ -43,6 +43,12 @@ What does StopAppdiscovery.bat execute?
  * powershell -command "Get-ADDomainController -Filter * | Select-Object name | Export-Csv -Path %userprofile%\desktop\AppDiscovery\ListOfDCs.csv"
 
 ```
+The following files should exist in a folder named AppDiscovery on the desktop.
+* KDCPerf.evtx
+* netlogon.log
+* netlogon.bak
+* ListOfDCs.csv
+
 <br>
 <br>
 <br>
@@ -56,4 +62,13 @@ What does StopAppdiscovery.bat execute?
 &nbsp;&nbsp;&nbsp; AnalyzeKDCPerf <KDCPerf.evtx>
 
 <br>
-The output files (NTLMAuthRaw.csv and KerbAuthRaw.csv) contains information of all NTLM and Kerberos authentications that were handled by the domain controller. You can use the csv as is or visualize the results by passing these files as data sources into AnalyzeDCAuth.pbix
+The output files (NTLMAuthRaw.csv and KerbAuthRaw.csv) contains information of all NTLM and Kerberos authentications that were handled by the domain controller. 
+
+<br>
+<br>
+<br>
+
+## Step 3: Load the data in PoweBI
+Open AnalyzeDCAuth.pbix and load the output files (NTLMAuthRaw.csv, KerbAuthRaw.csv, ListOfDCs.csv). The easiest way to load these files would be to copy all the files under C:\AppDiscovery and click on "Refresh" button. 
+
+![alt text](https://github.com/gentarom/AppDiscoveryTool/blob/main/FilesForThisGithubSite/HowTo-Reload.jpg)
