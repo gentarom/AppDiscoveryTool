@@ -1,6 +1,3 @@
-# Application Discovery Tool
-
-
 ## About This Tool
 In Active Directory, authentications for domain users are processed by the domain controller. This tool will enable debug logs on the domain controller(s) to capture NTLM and Kerberos Authentications. We can then analyze the logs visually through Power BI to identify application servers that rely on your on-premises AD for authentication
 <br>
